@@ -36,6 +36,22 @@ h4 {
   clear: both;
 }
 
+button {
+  border: 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+  background-color: #ff305b;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #b82542;
+}
+
 /* #Start Header Styles */
 
 header {
@@ -185,10 +201,44 @@ nav .container {
   text-transform: uppercase;
   padding-left: 0.5rem;
   margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 #about .summary p {
   line-height: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px dashed #555;
+}
+
+#about .summary-info ul {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+#about .summary-info li {
+  padding: 0.5rem 0;
+  color: #555;
+}
+
+#about .summary-info span {
+  color: #000;
+  display: inline-block;
+  padding-right: 0.25rem;
+}
+
+#about .summary-info .list-left {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+#about .summary-info .list-right {
+  display: inline-block;
+}
+
+
+#about .about-buttons i {
+  padding: 0 0.5rem;
+  margin:0
 }
 
 /* #End About Styles */
