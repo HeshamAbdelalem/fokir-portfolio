@@ -52,6 +52,54 @@ button:hover {
   background-color: #b82542;
 }
 
+button:not(i) :hover {
+  background-color: #b82542;
+}
+
+.text-fade-container {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5rem;
+  overflow: hidden;
+  width: 420px;
+  text-align: center;
+  margin-left: -6rem;
+}
+.message {
+  color: #ff305b;
+  display: block;
+  position: absolute;
+  padding: 0 0.5rem;
+  /* top: 0.1rem; */
+  /* top: -1.7rem; */
+  left: 19rem;
+  animation: openclose 7s ease-in-out infinite;
+  border-right: 2px solid #fff;
+  text-align: left;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.1rem;
+  }
+
+  40% {
+    top: 0.1rem;
+  }
+
+  50% {
+    top: -1.7rem;
+  }
+
+  90% {
+    top: -1.7rem;
+  }
+
+  100% {
+    top: 0.1rem;
+  }
+}
+
 /* #Start Header Styles */
 
 header {
@@ -96,6 +144,7 @@ nav .container {
 
 .nav-items li a:hover {
   color: #ff305b;
+  border-bottom: 1px solid #ff305b;
 }
 
 .info-block {
@@ -122,10 +171,6 @@ nav .container {
   color: #ff305b;
   padding: 0.5rem;
   text-transform: uppercase;
-}
-
-.info-block p:nth-of-type(2) {
-  font-size: 1.5rem;
 }
 
 /* #End Header Styles */
@@ -235,10 +280,111 @@ nav .container {
   display: inline-block;
 }
 
-
 #about .about-buttons i {
   padding: 0 0.5rem;
-  margin:0
+  margin: 0;
 }
 
 /* #End About Styles */
+
+/* #Start Services Styles */
+#services .container {
+  width: 80%;
+  padding: 4rem 0;
+  /* border: 2px dotted red; */
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#services .line1,
+#services .line3 {
+  width: 4rem;
+  height: 1px;
+  background-color: #ff305b;
+  margin: 0.25rem auto;
+}
+#services .line2 {
+  width: 8rem;
+  height: 1px;
+  background-color: #ff305b;
+  margin: 0 auto;
+}
+#services .line3 {
+  margin-bottom: 2rem;
+}
+#services .services-items .item-container {
+  padding: 1rem;
+}
+
+#services .services-items .item {
+  width: 23%;
+  display: inline-block;
+  margin-left: 0.5rem;
+  /* border: 1px solid red; */
+  transition: all 0.5s ease-in-out;
+  vertical-align: text-top;
+}
+
+#services .services-items {
+  margin: 1rem 0;
+}
+
+#services .services-items i {
+  color: #ff305b;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+#services .item:hover i {
+  transform: scale(1.2);
+}
+#services .item:hover {
+  box-shadow: 0 0.4rem 1.5rem #888888;
+}
+
+#services h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+#services p {
+  color: #555;
+  line-height: 1.5rem;
+}
+
+/* #END Services Styles */
+
+/* #Start Footer Styles */
+
+footer {
+  background-color: #333333;
+  height: 10rem;
+  position: relative;
+  color: white;
+}
+footer .container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer i {
+  display: inline-block;
+  cursor: pointer;
+  margin: 2rem 1rem;
+  color: #fff;
+}
+
+footer .copyright {
+  color: #ff305b;
+}
+
+/* #End Footer Styles */
