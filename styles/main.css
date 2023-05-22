@@ -463,7 +463,9 @@ nav .container {
   /* border: 2px dotted red; */
   width: 40rem;
   padding: 2rem;
-  background: linear-gradient(135deg, #ff305b 20%, #fff 11%);
+  background: linear-gradient(135deg, #ff305b 20%, #efefef 11%);
+  box-shadow: 0 0 1rem #eee;
+  margin: 0 auto;
 }
 
 .card div {
@@ -489,8 +491,100 @@ nav .container {
   /* border: 1px solid red; */
   margin-left: 1rem;
 }
+.card .location {
+  color: #767474;
+  font-style: italic;
+}
+.card .location i {
+  display: inline-block;
+  margin-right: 0.4rem;
+}
+
+.card .info {
+  margin: 1rem 0;
+}
 
 /* #END testimonial Styles */
+/* #Start blog Styles */
+
+#blogs {
+  text-align: center;
+  background-color: #efefef;
+  padding: 3rem 0;
+}
+
+.blog-container {
+  width: 30%;
+  text-align: left;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.blog-container iframe {
+  width: 100%;
+  /* height: 100%; */
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-container .blog-item-pic img {
+  width: 100%;
+}
+
+.blog-item-info {
+  padding: 1rem;
+}
+
+.blog-item-info h3 {
+  padding: 1rem 0;
+}
+
+.blog-item-info .detailes {
+  padding: 0.5rem 0;
+  line-height: 1.8rem;
+}
+
+.blog-item-info .more {
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.blog-item-info .more:hover {
+  color: #ff305b;
+}
+
+/* #END blog Styles */
+
+/* #START Contact Styles */
+
+#contact {
+  text-align: left;
+  padding: 6rem 0;
+}
+
+#contact h2 {
+  text-align: center;
+}
+#contact form input,
+textarea {
+  display: inline-block;
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.255);
+  margin-bottom: 1rem;
+}
+
+#contact .form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+button {
+  margin-left: 0;
+}
+/* #END Contact Styles */
 
 /* #Start Footer Styles */
 
