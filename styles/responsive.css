@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  nav .container {
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  .nav-icon,
+  .nav-items {
+    float: none;
+    text-align: center;
+  }
+  .nav-items ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .nav-items li {
+    float: none;
+    display: inline-block;
+  }
+
+  #about .container {
+    width: 90%;
+  }
+  #about .personal-pic {
+    width: 35%;
+  }
+
+  #services .container {
+    width: 90%;
+  }
+  #services h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  #portfolio .container {
+    width: 95%;
+  }
+  #testimonial .container {
+    width: 95%;
+  }
+
+  .blog-container h3 {
+    font-size: 1.2rem;
+  }
+
+  #contact .form-container {
+    width: 90%;
+  }
+
+  #contact .btn-container {
+    /* display: inline-block; */
+    margin: 0 auto;
+    text-align: center;
+  }
+}
