@@ -465,10 +465,10 @@ nav .container {
 }
 
 .card {
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   max-width: 40rem;
   padding: 2rem;
-  background: linear-gradient(135deg, #ff305b 20%, #efefef 11%);
+  background: linear-gradient(135deg, #ff305b 20%, #ebebeb 11%);
   box-shadow: 0 1rem 2rem #eee;
   margin: 0 auto;
 }

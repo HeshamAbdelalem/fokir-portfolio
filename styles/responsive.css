@@ -53,3 +53,110 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 766px) {
+  nav .container {
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  .nav-icon,
+  .nav-items {
+    float: none;
+    text-align: center;
+  }
+  .nav-items ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .nav-items li {
+    float: none;
+    display: inline-block;
+    margin: 0.5rem;
+  }
+
+  #about .container {
+    width: 90%;
+  }
+
+  #about .personal-pic,
+  #services .container {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #about .personal-pic {
+    border: none;
+  }
+
+  #about .about-me {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  #services h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  #portfolio .container {
+    width: 95%;
+  }
+
+  #services .services-items .item {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  #testimonial .container {
+    width: 95%;
+  }
+
+  .blog-container h3 {
+    font-size: 1.2rem;
+  }
+
+  #portfolio .img-container div {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  #portfolio .portfolio-icon-container div {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #testimonial {
+    margin: 5rem 0;
+    text-align: center;
+  }
+
+  #blogs {
+    margin-top: 0;
+  }
+
+  #blogs .blog-container {
+    width: 100%;
+  }
+
+  #contact .form-container {
+    width: 90%;
+  }
+
+  #contact {
+    padding: 1rem;
+  }
+
+  #contact .container {
+    width: 100%;
+  }
+
+  #contact .btn-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
