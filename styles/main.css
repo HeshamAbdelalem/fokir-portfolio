@@ -248,7 +248,11 @@ nav .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.7s ease;
+  transition: all 0.5s ease;
+}
+
+#about .personal-pic .img-show i:hover {
+  color: #ff305b;
 }
 
 #about .personal-pic:hover .img-show {
@@ -311,7 +315,6 @@ nav .container {
 #about .summary-info .list-right {
   display: inline-block;
 }
-
 
 #about .about-buttons i {
   padding: 0 0.5rem;
